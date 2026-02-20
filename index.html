@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Age Calculator – Calculate Exact Age Online</title>
+    <meta name="description" content="Free online age calculator. Calculate your exact age in years, months, days and find out how many days until your next birthday.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Age Calculator</h1>
+    <p class="subtitle">Calculate your exact age instantly</p>
+
+    <div class="card">
+        <h2>Enter Your Date of Birth</h2>
+        <input type="date" id="dob">
+        <button onclick="calculateAge()">Calculate Age</button>
+
+        <div class="result" id="result"></div>
+    </div>
+
+    <div class="ad-placeholder">
+        Advertisement Space
+    </div>
+
+    <section class="content">
+        <h2>How This Age Calculator Works</h2>
+        <p>
+            This tool calculates your exact age from your date of birth to today's date.
+            It provides your age in years, months and days, along with total days lived
+            and time remaining until your next birthday.
+        </p>
+
+        <h2>How To Calculate Age Manually</h2>
+        <p>
+            To calculate age manually, subtract the birth year from the current year,
+            then adjust based on whether your birthday has occurred yet this year.
+        </p>
+
+        <h2>Frequently Asked Questions</h2>
+
+        <h3>How do I calculate my exact age?</h3>
+        <p>Use your date of birth and subtract it from today's date.</p>
+
+        <h3>Does this include leap years?</h3>
+        <p>Yes. The calculator uses actual calendar date differences.</p>
+    </section>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
